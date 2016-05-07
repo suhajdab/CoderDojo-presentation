@@ -1,0 +1,49 @@
+/* TODO: sass */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #222 url(http://edge.alluremedia.com.au/m/k/2016/01/shutterstock-programming.jpg) center no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    font-size: 30px;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    height: 100%;
+}
+
+#app > div {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header, main, footer {
+    margin: 2%;
+
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 3px;
+}
+
+header {
+    flex: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 2rem 1rem;
+}
+
+footer {
+    flex: none;
+    padding: 0.5rem 1rem;
+}
